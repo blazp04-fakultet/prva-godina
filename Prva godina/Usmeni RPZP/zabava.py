@@ -7,5 +7,4 @@ def zabava(ljudi):
 
 
 ljudi = [(1, 3), (2, 3), (3, 4), (5, 7)]
-
 print(zabava(ljudi))
