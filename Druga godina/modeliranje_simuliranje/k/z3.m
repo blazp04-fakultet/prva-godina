@@ -1,0 +1,1 @@
+(tan(3*pi/2) * (1/tan(7*pi/3)) + (2*sqrt(3))^(1/5) + (asin(2/sqrt(6))*5^(1+sqrt(3))))^(3/2) +((log(5/sqrt(4)))/exp(sqrt(4.5))) - (log10(cos(3*pi/7)))^3

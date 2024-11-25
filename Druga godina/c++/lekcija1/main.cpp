@@ -13,5 +13,14 @@ int main()
         return -1;
     }
     cout << "Povrsina pravokutnika je: " << a * b << endl;
+
+    for (int i = 0; i < b; i++)
+    {
+        for (int j = 0; j < a; j++)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
     return 0;
 }

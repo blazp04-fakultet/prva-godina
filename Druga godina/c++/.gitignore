@@ -1,0 +1,8 @@
+*.o
+*.elf
+*.bin
+*.map
+*.userprefs
+.DS_Store
+Thumbs.db
+*.swp

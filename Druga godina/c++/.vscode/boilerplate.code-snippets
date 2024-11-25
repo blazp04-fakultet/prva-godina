@@ -1,0 +1,15 @@
+{
+	"Basic C++ Program": {
+		"scope": "cpp",
+		"prefix": "cppbasic",
+		"body": [
+			"#include <iostream>",
+			"",
+			"int main() {",
+			"    $1", // Tab stop for user input
+			"    return 0;",
+			"}"
+		],
+		"description": "Generate a basic C++ program template"
+	}
+}

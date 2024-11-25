@@ -1,2 +1,14 @@
 
 PR1/biciklo-sum/
+*.o
+*.elf
+*.bin
+*.map
+*.userprefs
+*.DS_Store
+Thumbs.db
+*.swp
+*.exe
+*.link
+*.obj
+*.pdb
