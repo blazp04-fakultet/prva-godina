@@ -1,0 +1,116 @@
+﻿
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Mobile</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <h1>
+                <a href="index.html">Smart  <span  class="logo_color">mobile</span></a>
+            </h1>
+            <h2 id="subtitle">Tvrka za bolje sutra!</h2>
+        </div> 
+        <div id="menubar">
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+	            <li><a href="http://www.samsung.hr">Samsung</a></li>
+                <li><a href="http://www.sony.com">Sony</a></li>
+                <li><a href="http://www.nokia.com">Nokia</a></li>
+                <li><a href="http://www.huawei.com">Hauwei</a></li>
+	            <li><a href="http://www.lg.com">LG</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div id="sidebar">
+            <div class="sidebar_item">
+                <h3 id="contact">Kontakt podaci</h3>
+                <h4>SmartMobile d.o.o</h4>
+                <h5>Kralja Tomislava 16 <br/>Uskoplje, BIH</h5>
+	            <h5>Mob: 036/355355</h5>
+                <h5>mail:<a href="mailto:smartmobile@nomail.com">smartmobile@nomail.com</a></h5>
+            </div>
+            <div class="sidebar_item">
+                <h3>Prijava:</h3>
+                <form id="forma" method="post" action="#">
+                    <label class="labela">Ime:</label>
+                    <input id="username1" class="polje" type="text" name="username" value="Zeljko" />
+                    <br />
+                    <label class="labela">Lozinka:</label>
+                    <input class="polje" type="text" name="password"  />
+                </form>
+            </div>
+            <div class="sidebar_item">
+                <span><a href="http://www.samsung.com" target="blank"><img id="slika" src="style/samsung_logo.png" alt="Samsung" width="180"></a></span>
+            </div>
+            
+        </div>
+		
+	    <div id="content">
+            <h1 class="oglas_naslov">Oglas za posao</h1>
+            <p class="oglas_sadrzaj">
+                Tvrtka SmartMobile d.o.o bavi se prodajom, isporukom i servisiranjem
+                mobilnih i drugih pametnih ureađaja renomiranih proizvođača kao što su
+                Samsung, LG,Sony, Huawei i Nokia.
+            </p>
+            <p>
+                O obzirom na brz razvoj poduzeca i povećanu potražnju u proteklih par godina
+                drago nam je da smo u mogućnosti zaposliti <strong>5</strong> novih djelatnika.
+            </p>
+            <hr>    
+            <h2>Popisa traženih zanimanja</h2>
+     
+            <ul>
+	            <li>Računovođa (1 mjesto)</li>
+	            <li>Informatičar (2 mjesta)</li>
+	            <li> Serviser (2 mjesta) </li>
+            </ul>
+	
+	
+            <p>
+                <br/>U koliko zadovoljavate kvalifikacijima za navedena zanimanja možete poslati mail ili se javiti putem telefona na <a href="#contact">kontakt podatke</a>
+            </p> 
+
+            <table >
+                <tr><th>Zanimanje</th><th>Opis posla</th><th>Uvjeti</th></tr>
+                <tr><td>Računovođa</td><td>Financije</td><td>Magistar ekonomije</td></tr>
+	            <tr><td>Informatičar</td><td>Usluge programiranja u ASP.NET </td><td>Magistar informatike</td></tr>
+                <tr><td>Servis</td><td>Održavanje sustava</td><td>Srednja škola</td></tr>
+          
+            </table>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>Copyright &copy; SmartMobile | <a href="index.html">design from Smart Mobile</a></p>
+    </div>
+	<script>
+		var a = document.getElementById("subtitle");
+		a.firstChild.nodeValue = "Ovo je novi naslov!";
+		
+		//Zadatak 1.
+		var naslov = "Prodaja pekarskih proizvoda";
+		var sadrzaj = "Prodavača/icu za prodaju pekarskih proizvoda traži pekara u ...";
+		
+		oglasNovi(naslov, sadrzaj);			//Poziv funkcije za 1.Zadatak
+		izbornikNoviElement("Kontakt");		//Poziv funkcije za 2.Zadatak
+		
+		function oglasNovi(naslov, sadrzaj)
+		{
+			//Ovdje napisati tijelo funkcije
+		}
+		
+		function izbornikNoviElement(naziv)
+		{
+			//Ovdje napisati tijelo funkcije
+		}
+		
+	</script>
+</body>
+</html>
+

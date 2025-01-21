@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadatak2</title>
+  </head>
+  <body>
+    <script>
+      //   a();
+      //   b();
+      //   c();
+
+      function a() {
+        let START_NUMBER = 1;
+        let STOP_NUMBER = 120;
+        for (i = START_NUMBER; i <= STOP_NUMBER; i++) {
+          if (i % 45 === 0) {
+            document.write("<p>Broj " + i + " je djeljiv sa 5 i sa 9</p>");
+            continue;
+          }
+          if (i % 5 === 0) {
+            document.write("<p>Broj " + i + " je djeljiv sa 5</p>");
+            continue;
+          }
+          if (i % 9 == 0) {
+            document.write("<p>Broj " + i + " je djeljiv sa 9</p>");
+            continue;
+          }
+        }
+      }
+
+      function b() {
+        let START_NUMBER = 1;
+        let STOP_NUMBER = 120;
+        let i = START_NUMBER;
+        do {
+          if (i % 45 === 0) {
+            document.write("<p>Broj " + i + " je djeljiv sa 5 i sa 9</p>");
+          } else if (i % 5 === 0) {
+            document.write("<p>Broj " + i + " je djeljiv sa 5</p>");
+          } else if (i % 9 == 0) {
+            document.write("<p>Broj " + i + " je djeljiv sa 9</p>");
+          }
+          i++;
+        } while (i <= STOP_NUMBER);
+      }
+
+      function c() {
+        let START_NUMBER = 1;
+        let STOP_NUMBER = 120;
+        let i = START_NUMBER;
+        while (i <= STOP_NUMBER) {
+          if (i % 45 === 0) {
+            document.write("<p>Broj " + i + " je djeljiv sa 5 i sa 9</p>");
+          } else if (i % 5 === 0) {
+            document.write("<p>Broj " + i + " je djeljiv sa 5</p>");
+          } else if (i % 9 == 0) {
+            document.write("<p>Broj " + i + " je djeljiv sa 9</p>");
+          }
+          i++;
+        }
+      }
+    </script>
+  </body>
+</html>
